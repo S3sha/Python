@@ -1,0 +1,138 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+
+choice_one = input("There are two roads in front of you,whould like to go left or right? Please choose carefully... \n")
+lower_one = choice_one.lower()
+if lower_one == "left":
+    print('''  YOU HAVE BEEN EATEN BY RATS
+             _     __,..---""-._                 ';-,
+        ,    _/_),-"`             '-.                `\\
+       \|.-"`    -_)                 '.                ||
+       /`   a   ,                      \              .'/
+       '.___,__/                 .-'    \_        _.-'.'
+          |\  \      \         /`        _`""""""`_.-'
+             _/;--._, >        |   --.__/ `""""""`
+           (((-'  __//`'-......-;\      )
+                (((-'       __//  '--. /
+                          (((-'    __//
+                              (((-')
+                              GAME OVER ''')
+
+elif lower_one == "right":
+    print("You have chosen the right path,you see a light at the end of the road")
+    print('''As you aproach the end of the road the heat intensifies and you realize something is wrong\n
+           YOU SEE A GIANT DEMON SKULL BURNING !!!!!!!!!!!
+               WHAT YOU GONNA DO
+                                           (
+                .            )        )
+                         (  (|              .
+                     )   )\/ ( ( (
+             *  (   ((  /     ))\))  (  )    )
+           (     \   )\(          |  ))( )  (|
+           >)     ))/   |          )/  \((  ) 
+           (     (      .        -.     V )/   )(    (
+            \   /     .   \            .       \))   ))
+              )(      (  | |   )            .    (  /
+             )(    ,'))     \ /          \( `.    )
+             (\>  ,'/__      ))            __`.  /
+            ( \   | /  ___   ( \/     ___   \ | ( (
+             \.)  |/  /   \__      __/   \   \|  ))
+            .  \. |>  \      | __ |      /   <|  /
+                 )/    \____/ :..: \____/     \ <
+          )   \ (|__  .      / ;: \          __| )  (
+         ((    )\)  ~--_     --  --      _--~    /  ))
+          \    (    |  ||               ||  |   (  /
+                \.  |  ||_             _||  |  /
+                  > :  |  ~V+-I_I_I-+V~  |  : (.
+                 (  \:  T\   _     _   /T  : ./
+                  \  :    T^T T-+-T T^T    ;<
+                   \..`_       -+-       _'  )
+         )            . `--=.._____..=--'. ./         ''')
+    print("Are you gonna try to sneak behind the skull and try to murder it or \n"
+          "you ARE GOING TO GIVE YOUR SOUL AND SERVE THIS SPAWN OF HELL???")
+    choice_two = input("MURDER or SERVE : ").lower()
+    if choice_two == "murder":
+
+       print(
+        "SERIOUSLY I KNOW THIS IS A GAME BUT HOW WOULD YOU MURDER A FLAMING SKULL , SO YEA ,YOU ARE DEAD!!!!!!!!!!!!!!!!!!!!!")
+    elif choice_two == "serve":
+
+         print("YOU ARE NOW A DEMONIC CREATURE  AND IMMEDIATELY SUMMONED TO HELL")
+
+         print('''                        .....
+                   .d$$$$*$$$$$$bc
+                .d$P"    d$$    "*$$.
+               d$"      4$"$$      "$$.
+             4$P        $F ^$F       "$c
+            z$%        d$   3$        ^$L
+           4$$$$$$$$$$$$$$$$$$$$$$$$$$$$$F
+           $$$F"""""""$F""""""$F"""""C$$*$
+          .$%"$$e    d$       3$   z$$"  $F
+          4$    *$$.4$"        $$d$P"    $$
+          4$      ^*$$.       .d$F       $$
+          4$       d$"$$c   z$$"3$       $F
+           $L     4$"  ^*$$$P"   $$     4$"
+           3$     $F   .d$P$$e   ^$F    $P
+            $$   d$  .$$"    "$$c 3$   d$
+             *$.4$"z$$"        ^*$$$$ $$
+              "$$$$P"             "$$$P
+                *$b.             .d$P"
+                  "$$$ec.....ze$$$"
+                      "**$$$**""''')
+         print(
+        "As you fall through hells portal and your flesh is ripping off from your bones, you finally arrive in front of Lucifer")
+
+         print("HE LOOKS YOU IN THE EYES AND ASK YOU WHAT WOULD YOU LIKE TO DO ????")
+
+         print("COME WITH ME or KILL INNOCENT SOULS ")
+         choice_three = input("KILL or FOLLOW : ").lower()
+
+         if choice_three == "kill":
+
+             print("CONGRATZ YOU REACH TO AN END BUT YOU ARE A DISTURBING INDIVIDUAL THAT LIKES KILLING ,NOT GREAT BUT NOT TERRIBLE,KEEP IT UP :D")
+         else:
+
+             print('''DEVIL PERFORM MAGIC TRICKS FOR YOU BECAUSE KILLING IS STRESSFUL :D
+         *                       *
+            *                 *
+           )       (\___/)     (
+        * /(       \ (. .)     )\ *
+          # )      c\   >'    ( #
+           '         )-_/      '
+         \\|,    ____| |__    ,|//
+           \ )  (  `  ~   )  ( /
+            #\ / /| . ' .) \ /#
+            | \ / )   , / \ / |
+             \,/ ;;,,;,;   \,/
+              _,#;,;;,;,
+             /,i;;;,,;#,;
+            ((  %;;,;,;;,;
+             ))  ;#;,;%;;,,
+           _//    ;,;; ,#;,
+          /_)     #,;  //
+                 //    \|_
+                 \|_    |#\
+                  |#\    -"
+                  GAME OVER THANK YOU FOR PLAYING''')
