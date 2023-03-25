@@ -1,0 +1,13 @@
+import requests
+def currency_converter(amount,from_currency,to_currency):
+	api_endpoint=f"https://api.exchangerate-api.com/v4/latest/{from_currency}"
+	response = requests.get(api_endpoint)
+	data=response.json()
+	exchange_rate=data["rates"][to_currency]
+	converted_amount=amount * exchange_rate
+	return converted_amount
+amount=float(input("Enter the amount please: "))
+from_currency=input("Enter the source currency code: ").upper()
+to_currency = input("Enter the target currency code: ").upper()
+result = currency_converter(amount,from_currency,to_currency)
+print(f"{amount} from {from_currency} is equal to {result} in {to_currency}")
